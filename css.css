@@ -177,6 +177,7 @@ i {
     margin-bottom: 5px;
     color: #F27059;
     border-radius: 20px 20px 20px 20px;
+    text-align: center;
 
     letter-spacing: 2px;
     z-index: 99;
@@ -242,6 +243,7 @@ i {
     line-height: 40px;
     text-align: left;
 }
+
 #bgset3{
     height:100vh;
     background:#fff;
@@ -427,7 +429,7 @@ box-shadow: 0 5px 10px black;
     font-weight: bold;
     font-family: 宋體, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-#nickname{
+.nickname{
     font-size:15px;
     font-family: 宋體, Arial, Helvetica, sans-serif;
     font-style: italic;
