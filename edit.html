@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <script src="https://kit.fontawesome.com/9a93ec8ea5.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <title>編輯文章</title>
+    </head>
+
+    <body>
+        <form action="#" method="post">
+            <ul id="menu">
+                <a class="menu-button icon-plus" href="#menu" title="Show navigation">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a class="menu-button icon-minus" href="#0" title="Hide navigation">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <li class="menu-home">
+                    <a href="theme.html">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="theme_not_logged_in.html">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="account.html">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+        </ul>
+
+            <h1>&nbsp;編輯文章</h1>
+            <div class="hr_line"></div>
+            <br>
+            <div class="post_theme" value="文章">
+                <span class="post_title">標題名稱：</span>
+                <input id="p_title" type="text" value="原標題" / required>
+                <br>
+            </div>
+
+            <div class="post_theme con" value="文章">
+                <span class="post_context">文章內容：</span>
+                <br>
+                <center>
+                    <textarea id="p_context" / >
+原內容 原內容
+原內容 原內容
+原內容 原內容
+                    </textarea>
+                    <input id="postButton" class="log_button button_mes" type="submit" value="編輯完成"">
+                    <input id="cancelButton" class="log_button button_mes" type="button" value="取消編輯"" onclick="location.href='my_theme.html'">
+                </center>
+            </div>
+
+        </form>
+    </body>
+</html>
