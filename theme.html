@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <script src="https://kit.fontawesome.com/9a93ec8ea5.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <title>文章列表</title>
+    </head>
+
+    <body>
+        <div id="bgset4">
+            <form action="#" method="post">
+                <ul id="menu">
+                        <a class="menu-button icon-plus" href="#menu" title="Show navigation">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <a class="menu-button icon-minus" href="#0" title="Hide navigation">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                        <li class="menu-item">
+                            <a href="my_theme.html">
+                                <i class="fas fa-edit"></i>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="theme_not_logged_in.html">
+                                <i class="fas fa-sign-out-alt"></i>
+                            </a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="account.html">
+                                <i class="fas fa-user"></i>
+                            </a>
+                        </li>
+                </ul>
+
+                <div class="search_div">
+                    <input id="search" class="search" type="search" placeholder="搜尋文章"></input>
+                    <input class="search_button" type="button" value="搜尋">
+                </div>
+                
+                <div><h1>&nbsp;最新文章</h1></div>
+                
+                <div class="hr_line"></div>
+                <div onclick="theme()">
+                    <br>
+                    <div class="theme" value="文章">
+                        <span id="title">title</span><br>
+                        <span id="nickname">作者名稱：</span><br>
+                        <span id="created_at">發布時間：</span><br>
+                        <span id="updated_at">更新時間：</span><br>       
+                    </div>
+                </div>
+                <div onclick="theme()">
+                    <br>
+                    <div class="theme" type="text2" value="文章">
+                        <span id="title">title</span><br>
+                        <span id="nickname">作者名稱：</span><br>
+                        <span id="created_at">發布時間：</span><br>
+                        <span id="updated_at">更新時間：</span><br>       
+                    </div>
+                </div>
+
+                <div class="page_button">
+                    <br>
+                    <input id="next_page" class="next_page" type="button" value="下一頁">
+                    <input id="last_page" class="last_page" type="button" value="上一頁">
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>

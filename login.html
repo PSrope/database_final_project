@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://kit.fontawesome.com/9a93ec8ea5.js" crossorigin="anonymous"></script>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css.css">
+        <title>登入頁面</title>
+    </head>
+
+
+    <body>
+        <div id="bgset">
+            <form action="#" method="post">
+                <div id="login">
+                    <div id="login_title">海 大 留 言 板</div>
+
+                    <div class="line"><span id="msg"></span></div>
+                    <div class="line">
+                        <i class="fas fa-user"></i>
+                        <input id="username" name="username" type="text" placeholder="請輸入帳號" / required>
+                    </div>
+                    <br>
+                    <div class="line">
+                        <i class="fas fa-lock"></i>
+                        <input id="password" name="password" type="password" placeholder="請輸入密碼" / required>
+                    </div>
+                    <br>
+                    <input id="log_submit" class="log_button" type="submit" value="登入" onclick="login()">
+                    <input id="log_signup" class="log_button" type="button" value="註冊" onclick="signup()">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
