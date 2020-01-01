@@ -582,6 +582,7 @@ textarea {
 .button_mes{
     color: #F27059;
     background: rgb(29, 29, 29);
+    text-align: center;
     margin: 0px auto;
     margin-top: 10px;
 }
@@ -606,9 +607,9 @@ textarea {
     overflow: hidden;
     border-radius: 5px 5px 5px 5px;
     text-indent: 10px;
-    margin-bottom: 3px;
-    padding-bottom: 3px;
-    padding-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .post_title{
@@ -617,16 +618,42 @@ textarea {
     font-size:15px;
     float: left;
     text-indent: 10px;
+    margin-top: 2px;
 }
 
 #p_title{
     font-family: 宋體, Arial, Helvetica, sans-serif;
-    margin-left: 10px;
-    width: 150px;
+    width: 80%;
     padding: 2px 5px;
     border-style: solid;
     border-width: 1px; 
     border-radius: 5px 5px 5px 5px;
     font-size: 15px;
     font-weight: bold;
+}
+
+.post_context{
+    font-size:15px;
+    font-family: 宋體, Arial, Helvetica, sans-serif;
+    font-size:15px;
+    float: left;
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
+
+#p_context{
+    font-family: 宋體, Arial, Helvetica, sans-serif;
+    width: 95%;
+    height: 450px;
+    padding: 2px;
+    border-style: solid;
+    border-width: 1px; 
+    border-radius: 5px 5px 5px 5px;
+    font-size: 15px;
+}
+
+.con {
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
